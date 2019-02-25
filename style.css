@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    /* padding: 0; 
+    margin: 0;  */
+    font-family: sans-serif;
+}
+
+#content {
+    height: 200px;
+
+    position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+    padding: 50px;
+
+    /*this to solve "the content will not be cut when the window is smaller than the content": */
+    max-width:100%;
+    max-height:100%;
+    overflow:auto;
+}
+
+#chord_prompt {
+    font-size: 6em;
+}
+
+#answer_text {
+    color: darkgrey;
+    font-size: 3em;
+}
+
+p {
+    margin: 0px;
+}
+.consoletext {
+    padding-top: 0.1em;
+}
+
+#p5_container {
+    height: 50%;
+}
+
+#checkbox_container {
+    margin: 10px;
+    position: absolute;
+}
+
+#radio_container {
+    position: absolute;
+    margin: 10px;
+    right: 0;
+}
+
+#console_container {
+    height: 50%;
+    overflow-y: scroll;
+}
+
+#console {
+    padding: 20px;
+}
+
